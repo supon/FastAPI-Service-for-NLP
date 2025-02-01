@@ -70,10 +70,10 @@ router = APIRouter(
             tags=['']
          )
 
-AIFORTHAI_APIKEY = 'l9uAvHTjiK7VZLVKvybkYSTSlzHTg241'
-LINE_CHANNEL_ACCESS_TOKEN = 'M1tWWJFevslioF5wxKnXApmbXGr5RlpCWoW0KWAxcYiQXBi6EAN/ROgtWp3uA3Fzlhd0nLX+eelAQfulmx8OXrp3kjQeEm92JkRrqxWdSOVjTWy93ZiImtU0oI8gWP5+NHYKUV8nF/YNq4WenB+uAAdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = '3132586479cc87eb2abcd7bcf58749e0'
-NGROK_URL = 'https://78ab-2405-9800-b641-8dc3-d435-85e9-4d00-6613.ngrok-free.app/' # URL ต้องมีเครื่องหมาย "/" ปิดท้ายด้วย ตัวอย่าง เช่น https://78ab-2405-9800-b641-8dc3-d435-85e9-4d00-6613.ngrok-free.app/
+AIFORTHAI_APIKEY = '' # Your AIForThai API Key
+LINE_CHANNEL_ACCESS_TOKEN = '' # Line Access Token in Line Devloper page
+LINE_CHANNEL_SECRET = '' # Line Secret 
+NGROK_URL = '' # URL ต้องมีเครื่องหมาย "/" ปิดท้ายด้วย ตัวอย่าง เช่น https://78ab-2405-9800-b641-8dc3-d435-85e9-4d00-6613.ngrok-free.app/
 WAV_FILE = 'file.wav'
 DIR_FILE = 'static/'
 

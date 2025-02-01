@@ -12,7 +12,6 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, ImageMessage, AudioMessage
 )
 
-
 from aift import setting
 from aift.multimodal import textqa
 from aift.image.classification import maskdetection
@@ -36,17 +35,6 @@ import uvicorn
 
 
 from aift.nlp import tokenizer # 1. Tokenizer
-
-
-
-
-
-
-
-
-
-
-
 from aift.nlp import ner # 1.1 TNER
 from aift.nlp import g2p # 2. G2P
 from aift.nlp import soundex # 3. Soundex

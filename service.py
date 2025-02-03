@@ -16,7 +16,7 @@ from aift import setting
 from aift.multimodal import textqa
 from aift.image.classification import maskdetection
 from aift import setting
-setting.set_api_key('l9uAvHTjiK7VZLVKvybkYSTSlzHTg241')
+setting.set_api_key('') # AIForThai API Key from user profile menu
 
 from aift.nlp import g2p
 from aift.speech import stt
@@ -58,7 +58,7 @@ router = APIRouter(
             tags=['']
          )
 
-AIFORTHAI_APIKEY = '' # Your AIForThai API Key
+AIFORTHAI_APIKEY = '' # Your AIForThai API Key from user profile menu
 LINE_CHANNEL_ACCESS_TOKEN = '' # Line Access Token in Line Devloper page
 LINE_CHANNEL_SECRET = '' # Line Secret 
 NGROK_URL = '' # URL ต้องมีเครื่องหมาย "/" ปิดท้ายด้วย ตัวอย่าง เช่น https://78ab-2405-9800-b641-8dc3-d435-85e9-4d00-6613.ngrok-free.app/

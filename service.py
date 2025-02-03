@@ -194,7 +194,7 @@ def handle_text_message(event):
     
 
     # # 12.2 Vaja9 case เรียกใช้งานผ่านฟังก์ชันที่เขียนขึ้นมา สามารถกำหนดเสียงได้ 
-    speaker = 3 #[0=เสียงผู้ชาย, 1=เสียงผู้หญิง, 2=เด็กผู้ชาย, 3=เด็กผู้หญิง]
+    speaker = 0 #[0=เสียงผู้ชาย, 1=เสียงผู้หญิง, 2=เด็กผู้ชาย, 3=เด็กผู้หญิง]
     response = callVaja9(event.message.text, speaker)
     
     if(response.json()['msg'] == 'success'):
